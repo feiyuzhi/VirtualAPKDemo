@@ -8,9 +8,9 @@ didi VirtualAPK 项目集成demo
 -  adb install app/build/outputs/apk/release/app-release.apk
 
 # 构建插件并将插件推送到手机sd卡的根目录
-cd PluginDemo
-./gradlew clean assemblePlugin
-adb push plugindemo/build/outputs/apk/release/plugindemo-release.apk /sdcard/PluginSub.apk
+- cd PluginDemo
+- ./gradlew clean assemblePlugin
+- adb push plugindemo/build/outputs/apk/release/plugindemo-release.apk /sdcard/PluginSub.apk
 
 # andorid Q(API29)
 - Android Q 如果将见插件放到sd中会提示权限错误
